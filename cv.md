@@ -1,15 +1,15 @@
-#Dzmitry Ivanou  
-##PHONE: +375(29) 368-75-00 | EMAIL: 3prn@mail.ru
+# Dzmitry Ivanou  
+## PHONE: +375(29) 368-75-00 | EMAIL: 3prn@mail.ru
 
-###Summary:  
+### Summary:  
 4+ years of professional experience in sales management. Excellent managing skills and ability to work to tight deadlines.  
-###Skills:    
+### Skills:    
 - HTML  
 - CSS  
 - JavaScript  
 - Git  
 
-####code example:
+#### code example:
 ````html
 <script type="text/javascript">
 const Onsubmit = (number) =>  {
@@ -37,19 +37,19 @@ const Onsubmit = (number) =>  {
 	alert("Число: " + a + "\nsum1: " + sum1 + "\nsum2: " + sum2);
 ````
 
-###Experience:  
-0. [Codecademy](https://www.codecademy.com/users/dzmitry5776102624/achievements)  
-0. [HTML Academy](https://htmlacademy.ru/profile/id1017603/achievements)
-0. [GitHub](https://github.com)  
+### Experience:  
+1. [Codecademy](https://www.codecademy.com/users/dzmitry5776102624/achievements)  
+2. [HTML Academy](https://htmlacademy.ru/profile/id1017603/achievements)  
+3. [GitHub](https://github.com)  
 
-###Education:  
+### Education:  
 Mogilev Belarusian-Russian Univerity, Mogilev
 Faculty of Electrical Engineering  
-2008
+2008  
 
-###Other skills:
+### Other skills:  
 pre-intermediate level of English  
-I'm attending the English courses now
+I'm attending the English courses now  
 
 
 
