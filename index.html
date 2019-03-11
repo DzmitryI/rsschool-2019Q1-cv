@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <img src="assets/pic_small.jpg" alt="my foto">
+        <h1>Dzmitry Ivanou</h1>
+        <h2>PHONE: +375(29) 368-75-00 | EMAIL: 3prn@mail.ru</h2>
+        <h3>Summary:</h3>
+        <p>4+ years of professional experience in sales management. Excellent managing
+            skills and ability to work to tight deadlines.</p>
+        <h3>Skills:</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+        </ul>
+        <h4>code example:</h4>
+        <p>
+            <pre>
+                <code>
+            const Onsubmit = (number) =>  {
+                var a = elem.text.value;
+                var sNum = String(a);
+                var sum1 = 0;
+                var sum2 = 0;
+                var middle = parseInt(sNum.length / 2);
+                if(sNum.length % 2) {
+                    middle +=  1;
+                    var flag = false;
+                }
+                else var flag = true;
+                alert("midle :" + middle + "\nflag: " + flag);
+                for(var i = 0; i < sNum.length; i++) { 
+                if (i < middle - 1) 
+                    sum1 += Number(sNum[i]);
+                else if (i === middle - 1 && flag)
+                    i += 1;
+                else if (i > middle - 1) {
+                    sum2 += Number(sNum[i]);
+                alert(sum1);
+                }
+            }
+                alert("Число: " + a + "\nsum1: " + sum1 + "\nsum2: " + sum2);
+                </code>
+            </pre>
+        </p>
+        <h3>Experience:</h3>
+        <ol>
+            <li><a href="https://www.codecademy.com/users/dzmitry5776102624/achievements">Codecademy</a></li>
+            <li><a href="https://htmlacademy.ru/profile/id1017603/achievements">HTML Academy</a></li>
+            <li><a href="https://github.com/DzmitryI">GitHub</a></li>
+        </ol>
+        <h3>Education:</h3>
+        <p>Mogilev Belarusian-Russian Univerity, Mogilev<br>
+            Faculty of Electrical Engineering<br>
+            2008</p>
+        <h3>Other skills:</h3>
+        <p>elementary level of English<br>
+            I'm attending the English courses now</p>
+
+
+    </div>
+
+</body>
+
+</html>
