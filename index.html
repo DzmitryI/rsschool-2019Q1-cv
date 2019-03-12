@@ -6,26 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <img src="assets/pic_small.jpg" alt="my foto">
-        <h1>Dzmitry Ivanou</h1>
-        <h2>PHONE: +375(29) 368-75-00 | EMAIL: 3prn@mail.ru</h2>
-        <h3>Summary:</h3>
-        <p>4+ years of professional experience in sales management. Excellent managing
+    <div class="container">
+        <img class="image-user" src="assets/pic_small.jpg" alt="my foto">
+        <h1 class="title">Dzmitry Ivanou</h1>
+        <h2>PHONE: +375(29) 368-75-00</h2>
+        <h2 class="email">EMAIL: 3prn@mail.ru</h2>
+        <h3 class="subtitle">Summary:</h3>
+        <p class="text">4+ years of professional experience in sales management. Excellent managing
             skills and ability to work to tight deadlines.</p>
-        <h3>Skills:</h3>
-        <ul>
+        <h3 class="subtitle">Skills:</h3>
+        <ul class="list-skills">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>Git</li>
         </ul>
-        <h4>code example:</h4>
-        <p>
-            <pre>
+        <h4 class="subtitle">code example:</h4>
+        <!-- <p class="text"> -->
+            <pre class="code">
                 <code>
             const Onsubmit = (number) =>  {
                 var a = elem.text.value;
@@ -52,24 +54,21 @@
                 alert("Число: " + a + "\nsum1: " + sum1 + "\nsum2: " + sum2);
                 </code>
             </pre>
-        </p>
-        <h3>Experience:</h3>
-        <ol>
-            <li><a href="https://www.codecademy.com/users/dzmitry5776102624/achievements">Codecademy</a></li>
-            <li><a href="https://htmlacademy.ru/profile/id1017603/achievements">HTML Academy</a></li>
-            <li><a href="https://github.com/DzmitryI">GitHub</a></li>
+        <!-- </p> -->
+        <h3 class="subtitle">Experience:</h3>
+        <ol class="list-experience">
+            <li><a href="https://www.codecademy.com/users/dzmitry5776102624/achievements" target="_blank">Codecademy</a></li>
+            <li><a href="https://htmlacademy.ru/profile/id1017603/achievements" target="_blank">HTML Academy</a></li>
+            <li><a href="https://github.com/DzmitryI" target="_blank">GitHub</a></li>
         </ol>
-        <h3>Education:</h3>
-        <p>Mogilev Belarusian-Russian Univerity, Mogilev<br>
+        <h3 class="subtitle">Education:</h3>
+        <p class="text">Mogilev Belarusian-Russian Univerity, Mogilev<br>
             Faculty of Electrical Engineering<br>
             2008</p>
-        <h3>Other skills:</h3>
-        <p>elementary level of English<br>
+        <h3 class="subtitle">Other skills:</h3>
+        <p class="text">elementary level of English<br>
             I'm attending the English courses now</p>
-
-
     </div>
-
 </body>
 
 </html>

@@ -1,0 +1,74 @@
+body {
+
+}
+
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background: #8a94a3;
+}
+
+.image-user {
+    width: 230px;
+    height: 200px;
+    float: left;
+    margin: 10% 2% 1% 20%;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 10%;
+}
+
+
+h2 {
+    display: block;
+    margin: 0;
+}
+
+
+.email {
+    margin-bottom: 10%;
+}
+
+
+.subtitle {
+    margin: 0;
+    margin-left: 20%;
+    display: block; 
+}
+
+.summary {
+    /* margin-top: 5%; */
+
+}
+
+
+.text {
+    margin-left: 20%;
+    width: 60%;
+    /* display: inline-block;  */
+}
+
+
+.list-skills{
+    margin-left: 20%;
+    list-style-type: circle;
+}
+
+
+.code {
+    margin-left: 12%;
+}
+
+
+.list-experience{
+    margin-left: 20%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
