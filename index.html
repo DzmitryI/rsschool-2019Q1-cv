@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="image-user" src="assets/images/pic_small.jpg" alt="my foto">
+        <h1 class="title">Dzmitry Ivanou</h1>
+        <h2><a href="tel: +375293687500"><i class="icon-mobile"></i></a>: +375(29) 368-75-00</h2>
+        <h2 class="h2-email"><a href="mailto:3prn@mail.ru"><i class="icon-mail-alt"></i></a>: 3prn@mail.ru</h2>
+        <h3 class="subtitle">Summary:</h3>
+        <p class="text">4+ years of professional experience in sales management. Excellent managing
+            skills and ability to work to tight deadlines.</p>
+        <h3 class="subtitle">Skills:</h3>
+        <ul class="list-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+        </ul>
+        <h4 class="subtitle">code example:</h4>
+        <!-- <p class="text"> -->
+            <pre class="code">
+                <code>
+            const Onsubmit = (number) =>  {
+                var a = elem.text.value;
+                var sNum = String(a);
+                var sum1 = 0;
+                var sum2 = 0;
+                var middle = parseInt(sNum.length / 2);
+                if(sNum.length % 2) {
+                    middle +=  1;
+                    var flag = false;
+                }
+                else var flag = true;
+                alert("midle :" + middle + "\nflag: " + flag);
+                for(var i = 0; i < sNum.length; i++) { 
+                if (i < middle - 1) 
+                    sum1 += Number(sNum[i]);
+                else if (i === middle - 1 && flag)
+                    i += 1;
+                else if (i > middle - 1) {
+                    sum2 += Number(sNum[i]);
+                alert(sum1);
+                }
+            }
+                alert("Число: " + a + "\nsum1: " + sum1 + "\nsum2: " + sum2);
+                </code>
+            </pre>
+        <!-- </p> -->
+        <h3 class="subtitle">Experience:</h3>
+        <ol class="list-experience">
+            <li><a href="https://www.codecademy.com/users/dzmitry5776102624/achievements" target="_blank">Codecademy</a></li>
+            <li><a href="https://htmlacademy.ru/profile/id1017603/achievements" target="_blank">HTML Academy</a></li>
+            <li><a href="https://github.com/DzmitryI" target="_blank">GitHub</a></li>
+        </ol>
+        <h3 class="subtitle">Education:</h3>
+        <p class="text">Mogilev Belarusian-Russian Univerity, Mogilev<br>
+            Faculty of Electrical Engineering<br>
+            2008</p>
+        <h3 class="subtitle">Other skills:</h3>
+        <p class="text">A2 level of English<br>
+            I'm attending the English courses now</p>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
